@@ -1,6 +1,6 @@
 # PusherPoll
 
-> Real-Time polling application using Pusher, Node.js, Express, MongoDB and CanvasJS
+> Real-Time polling application using  Node.js, Express, MongoDB and CanvasJS
 
 ## Quick Start
 
@@ -18,11 +18,6 @@ npm start
 ```
 
 ## App Info
-
-### Author
-
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
 
 ### Version
 
