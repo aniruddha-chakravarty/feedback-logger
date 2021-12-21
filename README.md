@@ -1,6 +1,8 @@
-# PusherPoll
+# feedback-logger
 
 > Real-Time polling application using  Node.js, Express, MongoDB and CanvasJS
+
+> http://feedback-poll.herokuapp.com/
 
 ## Quick Start
 
