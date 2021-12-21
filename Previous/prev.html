@@ -1,0 +1,68 @@
+<!-- 
+    <input type="text" placeholder="Enter integer value " id="myInput">
+    <button type="button" class="btn btn-primary" onclick="getInputValue();"> Set number of Votes </button> -->
+
+
+<!-- 
+  <script>
+
+    var inputVal;
+
+    function getInputValue() {
+      // Selecting the input element and get its value 
+      inputVal = document.getElementById("myInput").value;
+
+
+
+      // Displaying the value
+      alert(`Total Number of permitted votes: ${inputVal}`, inputVal);
+    }
+    $(function () {
+      var timesSubmitted = 0;
+      /* var maxSubmits = 5; */
+      var intervalMilliseconds = 20000; // for testing   
+      var interval;
+
+//try with submit for restriction
+
+      $('input[type=text]').click(function (event) {
+        if (!interval) {
+          interval = setTimeout(function () {
+            interval = undefined;
+            timesSubmitted = 0;
+            alert("Timer Reset. Refresh + Submit again. ");
+
+          }, intervalMilliseconds);
+        }
+        timesSubmitted++;
+
+        if (timesSubmitted > inputVal) {
+
+          document.getElementById("myBtn").disabled = true;
+
+          alert("Try refreshing + submitting again within 10 seconds. ");
+        } else {
+          alert("Valid Vote.");
+        }
+
+
+        event.preventDefault();
+      });
+
+
+
+
+    });
+
+
+
+
+
+
+
+
+
+
+  </script> -->
+
+  onclick="localStorage.buttonDisabled='disabled';this.disabled=localStorage.buttonDisabled"
